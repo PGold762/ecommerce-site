@@ -26,7 +26,7 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
-Download the files from the repo and install locally. Be sure to install NPM, inquirer8.2.4, mysql, console.table. Then login to mysql using the following command: mysql -u root -p . Then source schema.sql. This will load the database. Then run server.js file in node to begin the application.
+Download the files from the repo and install locally. Be sure to install NPM, mysql2, Sequelize, and dotenv. Then login to mysql using the following command: mysql -u root -p . Then source schema.sql. This will load the database. Then run server.js file in node to begin the application.
 
 ## Usage
 
@@ -42,7 +42,7 @@ Screenshot of App:
 
 * Worked with Tutor Andrew Tirpok
 
-
+* Used the following to help with belongsToMany [Sequelize](https://sequelize.org/api/v6/class/src/associations/belongs-to-many.js~belongstomany)
 
 ## License
 
