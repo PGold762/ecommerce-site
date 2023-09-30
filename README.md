@@ -26,23 +26,27 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
-Download the files from the repo and install locally. Be sure to install NPM, mysql2, Sequelize, and dotenv. Then login to mysql using the following command: mysql -u root -p . Then source schema.sql. This will load the database. Then run server.js file in node to begin the application.
+Download the files from the repo and install locally. Be sure to install NPM, mysql2, Sequelize, and dotenv. Then login to mysql using the following command: mysql -u root -p . Then source schema.sql. This will create the database. Then run: npm run seed. This will load the database. Then run: npm start in node to begin the application.
 
 ## Usage
 
-This is an app local on your device that you may trigger within terminal and answer the questions
+This is an app local on your device that you may trigger within terminal and see the functionality in Insomnia
 
-Link to video: [E-Commerce Site](https://drive.google.com/file/d/1k6td9spQm3I6b-swvIUIiXLssn7-XKxP/view)
+Link to video: [E-Commerce Site](https://drive.google.com/file/d/1WF-4R0RiJvwtGvbSeG6mN6JMPFBnzQmX/view)
 
 Screenshot of App: 
 
-![E-Commerce Site](/employee-cap.png "E-Commerce Site")
+![E-Commerce Site](/ecommerce-cap.png "E-Commerce Site")
 
 ## Credits
 
 * Worked with Tutor Andrew Tirpok
 
 * Used the following to help with belongsToMany [Sequelize](https://sequelize.org/api/v6/class/src/associations/belongs-to-many.js~belongstomany)
+
+* Asked ASKBCS a few questions about some errors and got them resolved.
+
+* Worked with Erin (Class Member) on a known issue with JSON Data for the Product POST and PUT
 
 ## License
 
